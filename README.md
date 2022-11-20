@@ -1,6 +1,11 @@
-# Nuxt 3 Minimal Starter
+# Vogeslu.de - Personal Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Dependencies
+
+- **nuxt 3:** [Documentation](https://v3.nuxtjs.org/)
+- **tailwindcss:** [Documentation](https://tailwindcss.com/docs)
+- **nuxt-purgecss:** [Documentation](https://www.npmjs.com/package/nuxt-purgecss)
+- **prettier:** [Documentation](https://prettier.io/docs/en/index.html)
 
 ## Setup
 
