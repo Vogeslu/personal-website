@@ -13,6 +13,9 @@ export default {
       bodyAttrs: {
         class: "bg-gray-900",
       },
+      htmlAttrs: {
+        lang: "de",
+      },
     });
   },
 };

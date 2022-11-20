@@ -93,6 +93,19 @@ export default {
           ],
         },
         {
+          title: "Café Aquarium",
+          description: "Web-Applikation für Studentencafé der FH Erfurt",
+          url: "https://aqua.fh-erfurt.de",
+          image: "/images/project_aqua.png",
+          scopes: ["Next.JS", "TypeScript", "React", "Styled Components"],
+        },
+        {
+          title: "Deutschland Wählt - Tools",
+          description: "Link-Shortener & Tool zum Erstellen von Wahldiagrammen",
+          image: "/images/project_wahlen.png",
+          scopes: ["Next.JS", "TypeScript", "React", "Styled Components"],
+        },
+        {
           title: "CheckIn",
           description: "Mobile App für Traewelling-Reisetagebuch",
           url: "https://github.com/Vogeslu/checkin-react-native",

@@ -57,7 +57,7 @@
     </p>
 
     <div class="mt-14">
-      <h3 class="mb-6 text-2xl font-semibold">Weitere Links</h3>
+      <h2 class="mb-6 text-2xl font-semibold">Weitere Links</h2>
       <div class="-m-2 text-gray-300">
         <NuxtLink
           to="https://github.com/Vogeslu"
