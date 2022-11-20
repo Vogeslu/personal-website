@@ -2,13 +2,11 @@
 export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
-    //[
-    //  "nuxt-purgecss",
-    //  {
-    //    whitelistPatterns: [/svg.*/, /fa.*/],
-    //  },
-    //]
+    "nuxt-purgecss"
   ],
+  purgecss: {
+    safelist: [/svg.*/, /fa.*/]
+  },
   css: ["@fortawesome/fontawesome-svg-core/styles.css"],
   app: {
     head: {
@@ -62,4 +60,5 @@ export default defineNuxtConfig({
       ],
     },
   },
+  experimental: { treeshakeClientOnly: false },
 });
