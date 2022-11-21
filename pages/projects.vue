@@ -96,13 +96,13 @@ export default {
           title: "Café Aquarium",
           description: "Web-Applikation für Studentencafé der FH Erfurt",
           url: "https://aqua.fh-erfurt.de",
-          image: "/images/project_aqua.png",
+          image: "/images/project_aqua.jpg",
           scopes: ["Next.JS", "TypeScript", "React", "Styled Components"],
         },
         {
           title: "Deutschland Wählt - Tools",
           description: "Link-Shortener & Tool zum Erstellen von Wahldiagrammen",
-          image: "/images/project_wahlen.png",
+          image: "/images/project_wahlen.jpg",
           scopes: ["Next.JS", "TypeScript", "React", "Styled Components"],
         },
         {
