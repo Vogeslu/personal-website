@@ -23,7 +23,7 @@
         v-for="(item, index) in items"
         @key="index"
         :to="item.href"
-        class="group mx-4 block cursor-pointer border-b-2 border-b-transparent px-1 py-4 text-gray-400 transition-all hover:text-gray-200 md:py-0 md:hover:border-b-gray-400 md:hover:py-2"
+        class="group mx-4 block cursor-pointer border-b-2 border-b-transparent px-1 py-4 text-gray-400 transition-all hover:text-gray-200 md:py-0"
         :class="
           $route.path == item.href
             ? 'text-gray-200 md:border-b-gray-400 md:py-2'
@@ -32,8 +32,8 @@
         ><client-only>
           <font-awesome-icon
             :icon="item.icon"
-            class="mr-3 text-xl opacity-50 transition-opacity group-hover:opacity-100"
-            :class="$route.path == item.href ? 'opacity-100' : ''"
+            class="mr-3 text-xl transition-opacity group-hover:opacity-100"
+            :class="$route.path == item.href ? 'opacity-100' : 'opacity-50'"
           />
         </client-only>
         <span class="text-lg font-bold">{{ item.name }}</span>

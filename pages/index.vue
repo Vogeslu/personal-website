@@ -10,7 +10,7 @@
           class="mr-2 min-w-[2rem] text-xl"
         />
       </client-only>
-      Tätig als Freelancer seit 2017
+      Selbstständig seit 2017
     </p>
     <p class="mb-6 text-lg">
       <client-only>
@@ -62,7 +62,7 @@
         <NuxtLink
           to="https://github.com/Vogeslu"
           target="_blank"
-          class="m-2 inline-flex items-center"
+          class="m-2 inline-flex items-center underline decoration-dotted underline-offset-4"
         >
           <client-only>
             <font-awesome-icon
@@ -75,7 +75,7 @@
         <NuxtLink
           to="https://github.com/Sociant"
           target="_blank"
-          class="m-2 inline-flex items-center"
+          class="m-2 inline-flex items-center underline decoration-dotted underline-offset-4"
         >
           <client-only>
             <font-awesome-icon
@@ -84,6 +84,32 @@
             />
           </client-only>
           GitHub (Sociant WD)
+        </NuxtLink>
+        <NuxtLink
+          to="https://www.linkedin.com/in/luca-voges-43929b17b/"
+          target="_blank"
+          class="m-2 inline-flex items-center underline decoration-dotted underline-offset-4"
+        >
+          <client-only>
+            <font-awesome-icon
+              :icon="['fab', 'linkedin']"
+              class="mr-1 min-w-[2rem]"
+            />
+          </client-only>
+          LinkedIn
+        </NuxtLink>
+        <NuxtLink
+          to="https://www.xing.com/profile/Luca_Voges/"
+          target="_blank"
+          class="m-2 inline-flex items-center underline decoration-dotted underline-offset-4"
+        >
+          <client-only>
+            <font-awesome-icon
+              :icon="['fab', 'xing']"
+              class="mr-1 min-w-[2rem]"
+            />
+          </client-only>
+          Xing
         </NuxtLink>
       </div>
     </div>
