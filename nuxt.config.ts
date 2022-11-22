@@ -2,11 +2,11 @@
 export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
-    "nuxt-purgecss"
+  //  "nuxt-purgecss"
   ],
-  purgecss: {
-    safelist: [/svg.*/, /fa.*/]
-  },
+  // purgecss: {
+  //   safelist: [/svg.*/, /fa.*/]
+  // },
   css: ["@fortawesome/fontawesome-svg-core/styles.css"],
   app: {
     head: {
