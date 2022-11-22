@@ -3,56 +3,62 @@
     <h1 class="mb-2 text-4xl font-bold">Luca Voges</h1>
     <p class="mb-12 text-xl text-gray-300">Web- & App-Entwickler aus Erfurt</p>
 
-    <p class="mb-6 text-lg">
+    <p class="mb-6 text-lg flex items-center">
       <client-only>
         <font-awesome-icon
           :icon="['fas', 'laptop-code']"
           class="mr-2 min-w-[2rem] text-xl"
         />
       </client-only>
-      Selbstständig seit 2017
+      <span>Selbstständig seit 2017</span>
     </p>
-    <p class="mb-6 text-lg">
+    <p class="mb-6 text-lg flex items-center">
       <client-only>
         <font-awesome-icon
           :icon="['fas', 'globe']"
           class="mr-2 min-w-[2rem] text-xl"
         />
       </client-only>
-      Entwickler bei <b>designfanatics UG</b> für
-      <NuxtLink
-        to="https://findd.de"
-        target="_blank"
-        class="underline decoration-dotted underline-offset-4"
-        >findd.de</NuxtLink
+      <span
+        >Entwickler bei <b>designfanatics UG</b> für
+        <NuxtLink
+          to="https://findd.de"
+          target="_blank"
+          class="underline decoration-dotted underline-offset-4"
+          >findd.de</NuxtLink
+        ></span
       >
     </p>
-    <p class="mb-6 text-lg">
+    <p class="mb-6 text-lg flex items-center">
       <client-only>
         <font-awesome-icon
           :icon="['fas', 'code']"
           class="mr-2 min-w-[2rem] text-xl"
         />
       </client-only>
-      Alle meine Projekte?
-      <NuxtLink
-        to="/projects"
-        class="underline decoration-dotted underline-offset-4"
-        >Hier klicken</NuxtLink
+      <span
+        >Alle meine Projekte?
+        <NuxtLink
+          to="/projects"
+          class="underline decoration-dotted underline-offset-4"
+          >Hier klicken</NuxtLink
+        ></span
       >
     </p>
-    <p class="text-lg">
+    <p class="text-lg flex items-center">
       <client-only>
         <font-awesome-icon
           :icon="['fas', 'hand-wave']"
           class="mr-2 min-w-[2rem] text-xl"
         />
       </client-only>
-      Kontakt aufnehmen?
-      <NuxtLink
-        to="/contact"
-        class="underline decoration-dotted underline-offset-4"
-        >Ganz einfach</NuxtLink
+      <span
+        >Kontakt aufnehmen?
+        <NuxtLink
+          to="/contact"
+          class="underline decoration-dotted underline-offset-4"
+          >Ganz einfach</NuxtLink
+        ></span
       >
     </p>
 
