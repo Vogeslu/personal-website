@@ -29,12 +29,26 @@
       </NuxtLink>
       <h3 class="text-2xl font-semibold text-white" v-else>{{ title }}</h3>
       <p class="mt-2 mb-6 flex-1 text-white/80">{{ description }}</p>
-      <div class="-m-1">
+      <div class="-m-1" v-if="scopes">
         <span
           v-for="(scope, index) in scopes"
           :key="index"
           class="m-1 inline-block rounded-lg bg-gray-900 px-2 py-1 text-sm text-white"
           >{{ scope }}</span
+        >
+      </div>
+      <div class="-m-1" v-if="multipleLinks">
+        <a
+          v-for="(linkGroup, index) in multipleLinks"
+          :key="index"
+          :href="linkGroup[2]"
+          class="m-1 inline-block p-2 text-lg transition-colors text-white/60 hover:text-white"
+          ><client-only>
+          <font-awesome-icon
+            :icon="[linkGroup[0], linkGroup[1]]"
+          />
+        </client-only>
+        </a
         >
       </div>
     </div>
@@ -62,6 +76,10 @@ export default {
     },
     scopes: {
       type: Array,
+      required: false,
+    },
+    multipleLinks: {
+      type: Array as () => [string, string, string][],
       required: false,
     },
   },

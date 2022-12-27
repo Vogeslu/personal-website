@@ -14,6 +14,7 @@
         :image="project.image"
         :url="project.url"
         :scopes="project.scopes"
+        :multipleLinks="project.multipleLinks"
       />
     </div>
     <h2
@@ -51,6 +52,7 @@
 interface SlimProject {
   title: string;
   url?: string;
+  multipleLinks?: [string, string, string][];
   scopes?: string[];
 }
 
@@ -91,6 +93,34 @@ export default {
             "React",
             "Styled Components",
           ],
+        },
+        {
+          title: "Remove Twitter View Count",
+          description:
+            "Browser Extension zum Entfernen von View-Counts unter Tweets",
+          multipleLinks: [
+            [
+              "fab",
+              "chrome",
+              "https://chrome.google.com/webstore/detail/remove-twitter-view-count/jakjpkmlfjkglaooaodlnomfjdglehge",
+            ],
+            [
+              "fab",
+              "firefox",
+              "https://addons.mozilla.org/en-US/firefox/addon/remove-view-count-from-twitter/",
+            ],
+            [
+              "fas",
+              "code",
+              "	https://github.com/Vogeslu/Remove-Twitter-View-Count/raw/main/remove-twitter-view-count.user.js",
+            ],
+            [
+              "fab",
+              "github",
+              "	https://github.com/Vogeslu/Remove-Twitter-View-Count",
+            ],
+          ],
+          image: "/images/project_twitter_extension.jpg",
         },
         {
           title: "Café Aquarium",
