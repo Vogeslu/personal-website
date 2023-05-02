@@ -95,6 +95,19 @@ export default {
           ],
         },
         {
+          title: "Mensa Guthaben",
+          description: "Android App zum Abrufen des Mensa-Guthabens des Studentenausweises",
+          url: "https://play.google.com/store/apps/details?id=de.vogeslu.canteencredit",
+          image: "/images/project_canteen_credit.jpg",
+          scopes: [
+            "Android",
+            "Java",
+            "Kotlin",
+            "Jetpack Compose",
+            "Room"
+          ],
+        },
+        {
           title: "Remove Twitter View Count",
           description:
             "Browser Extension zum Entfernen von View-Counts unter Tweets",
