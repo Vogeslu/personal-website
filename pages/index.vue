@@ -19,15 +19,7 @@
           class="mr-2 min-w-[2rem] text-xl"
         />
       </client-only>
-      <span
-        >Entwickler bei <b>designfanatics UG</b> für
-        <NuxtLink
-          to="https://findd.de"
-          target="_blank"
-          class="underline decoration-dotted underline-offset-4"
-          >findd.de</NuxtLink
-        ></span
-      >
+      <span>Wissenschaftliche Hilfskraft <b>Fachhochschule Erurt</b></span>
     </p>
     <p class="mb-6 text-lg flex items-center">
       <client-only>

@@ -66,35 +66,6 @@ export default {
     return {
       projects: [
         {
-          title: "Findd",
-          description: "Netzwerk für kostenlose Unternehmensseiten",
-          url: "https://findd.de",
-          image: "/images/project_findd.jpg",
-          scopes: [
-            "PHP",
-            "Symfony",
-            "JavaScript",
-            "(S)CSS",
-            "Vue.JS",
-            "React Native",
-            "Encore",
-          ],
-        },
-        {
-          title: "Sociant Hub",
-          description: "Automatisiertes Tracken von Followern auf Twitter",
-          url: "https://hub.sociant.de",
-          image: "/images/project_sociant_hub.jpg",
-          scopes: [
-            "PHP",
-            "Symfony",
-            "JavaScript",
-            "(S)CSS",
-            "React",
-            "Styled Components",
-          ],
-        },
-        {
           title: "Mensa Guthaben",
           description: "Android App zum Abrufen des Mensa-Guthabens des Studentenausweises",
           url: "https://play.google.com/store/apps/details?id=de.vogeslu.canteencredit",
@@ -148,22 +119,45 @@ export default {
           image: "/images/project_wahlen.jpg",
           scopes: ["Next.JS", "TypeScript", "React", "Styled Components"],
         },
+      ] as Project[],
+      webProjects: [
         {
-          title: "CheckIn",
-          description: "Mobile App für Traewelling-Reisetagebuch",
+          title: "Sociant Hub - Twitter User Analytics",
+          url: "https://hub.sociant.de",
+          scopes: [
+            "PHP",
+            "Symfony",
+            "JavaScript",
+            "(S)CSS",
+            "React",
+            "Styled Components",
+          ],
+        },
+        {
+          title: "CheckIn - iOS Traewelling-Reisetagebuch",
           url: "https://github.com/Vogeslu/checkin-react-native",
           image: "/images/project_checkin.jpg",
           scopes: ["React Native"],
         },
         {
+          title: "Findd",
+          description: "Netzwerk für kostenlose Unternehmensseiten",
+          url: "https://findd.de",
+          scopes: [
+            "PHP",
+            "Symfony",
+            "JavaScript",
+            "(S)CSS",
+            "Vue.JS",
+            "React Native",
+            "Encore",
+          ],
+        },
+        {
           title: "Findd Market",
-          description: "Netzwerk für Designer und Künstler",
           url: "https://findd-market.de",
-          image: "/images/project_findd_market.jpg",
           scopes: ["PHP", "Symfony", "JavaScript", "(S)CSS", "Encore"],
         },
-      ] as Project[],
-      webProjects: [
         {
           title: "XXL-Print",
           url: "https://xxlprint.de",
